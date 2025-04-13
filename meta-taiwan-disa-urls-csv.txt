@@ -1,0 +1,66 @@
+Topic,Category,Source,URL,Description
+Meta and Trump,English,The New York Times,https://www.nytimes.com/2024/01/04/technology/meta-trump-facebook-instagram.html,Coverage of Meta's decision to reinstate Trump's accounts
+Meta and Trump,English,Meta Newsroom,https://about.fb.com/news/2023/06/meta-oversight-board-donald-trump-facebook-instagram/,Meta's official statements on Trump's reinstatement
+Meta and Trump,English,Reuters,https://www.reuters.com/technology/meta-platforms-allow-trump-back-facebook-instagram-2023-01-25/,Reporting on Meta's reversal of Trump ban
+Meta and Trump,English,CNN,https://www.cnn.com/2023/02/09/tech/meta-fact-checking-program/index.html,Analysis of Meta's fact-checking program changes
+Meta and Trump,English,The Washington Post,https://www.washingtonpost.com/technology/2023/01/25/trump-facebook-return/,Coverage of Trump's return to Facebook
+Meta and Trump,English,Politico,https://www.politico.com/news/2023/01/25/meta-to-reinstate-trump-on-facebook-instagram-00079475,Political implications of Trump's social media return
+Meta and Trump,English,CNBC,https://www.cnbc.com/2023/08/24/meta-oversight-board-says-trump-covid-posts-should-not-have-been-removed.html,Meta's Oversight Board decisions on Trump content
+Meta and Trump,English,The Atlantic,https://www.theatlantic.com/technology/archive/2024/03/meta-facebook-fact-checking-policy/677584/,Analysis of Meta's changing approach to fact-checking
+Meta and Trump,English,The Guardian,https://www.theguardian.com/technology/2023/jan/25/donald-trump-meta-facebook-instagram-ban-nick-clegg,International perspective on Trump's reinstatement
+Meta and Trump,English,TechCrunch,https://techcrunch.com/2023/01/25/meta-will-restore-donald-trumps-facebook-account-in-the-coming-weeks/,Tech industry coverage of Meta's decision
+Meta and Trump,English,Wired,https://www.wired.com/story/meta-trump-facebook-instagram-ban-lifted/,Tech analysis of Meta's policy shift
+Meta and Trump,English,NPR,https://www.npr.org/2023/01/25/1151381262/meta-trump-facebook-instagram,Public radio reporting on the reinstatement
+Meta and Trump,English,Axios,https://www.axios.com/2023/01/25/trump-facebook-ban-meta-2024,Political and tech implications of Meta's decision
+Meta and Trump,English,Bloomberg,https://www.bloomberg.com/news/articles/2023-01-25/meta-to-reinstate-donald-trump-s-facebook-and-instagram-accounts,Business perspective on Trump's return to platforms
+Meta and Trump,English,Poynter,https://www.poynter.org/fact-checking/2023/meta-fact-checking-program-changes-facebook/,Fact-checking organization's analysis of Meta's policies
+Meta and Trump,Chinese,中央通訊社 (CNA),https://www.cna.com.tw/news/firstnews/202301260007.aspx,臉書母公司Meta將解除川普帳號停權
+Meta and Trump,Chinese,聯合新聞網 (UDN),https://udn.com/news/story/6813/6931982,Meta恢復川普臉書和IG帳號的報導
+Meta and Trump,Chinese,自由時報 (Liberty Times),https://news.ltn.com.tw/news/world/breakingnews/4191499,Meta恢復川普社交媒體帳號的台灣視角
+Meta and Trump,Chinese,香港01,https://www.hk01.com/國際/853656/meta解除川普停權-社交媒體無法長期封殺前美國總統,香港媒體對Meta決定的報導
+Meta and Trump,Chinese,環球時報 (Global Times),https://www.globaltimes.cn/page/202301/1284345.shtml,中國官方媒體對川普社交媒體復出的報導
+Meta and Trump,Chinese,新華網 (Xinhua),http://www.xinhuanet.com/english/20230126/7c2da21a9b8a4d3982e8c57a7e26fe2a/c.html,中國官方通訊社對Meta決定的報道
+Meta and Trump,Chinese,財新網 (Caixin),https://www.caixin.com/2023-01-26/101990462.html,中國商業媒體對Meta政策轉變的分析
+Meta and Trump,Chinese,鳳凰網 (Phoenix),https://news.ifeng.com/c/8MVwuzdgx8J,川普臉書帳號恢復的中文報導
+Meta and Trump,Chinese,澎湃新聞 (The Paper),https://www.thepaper.cn/newsDetail_forward_21851248,中國大陸媒體對川普社交媒體復出的報導
+Meta and Trump,Chinese,南華早報 (SCMP),https://www.scmp.com/tech/big-tech/article/3207866/meta-will-restore-donald-trumps-facebook-and-instagram-accounts,香港英文媒體的中文版報導
+Taiwan DISA,English,Taiwan News,https://www.taiwannews.com.tw/en/news/4893818,Coverage of DISA legislation debates
+Taiwan DISA,English,Taipei Times,https://www.taipeitimes.com/News/taiwan/archives/2023/09/19/2003806374,English reporting on DISA developments
+Taiwan DISA,English,Focus Taiwan,https://focustaiwan.tw/politics/202309180009,CNA's English service coverage of DISA
+Taiwan DISA,English,The Diplomat,https://thediplomat.com/2023/10/taiwans-proposed-digital-intermediary-services-act/,Analysis of Taiwan's proposed DISA
+Taiwan DISA,English,Tech Policy Press,https://techpolicy.press/taiwan-digital-intermediary-services-act/,Tech policy analysis of Taiwan's DISA
+Taiwan DISA,English,The News Lens,https://international.thenewslens.com/article/183766,International perspective on Taiwan's DISA
+Taiwan DISA,English,Global Taiwan Institute,https://globaltaiwan.org/2023/10/taiwans-digital-intermediary-services-act/,Think tank analysis of DISA
+Taiwan DISA,English,Taiwan Insight,https://taiwaninsight.org/2023/11/15/taiwans-digital-intermediary-services-act/,Academic analysis of Taiwan's DISA
+Taiwan DISA,English,DigiChina,https://digichina.stanford.edu/news/taiwans-digital-intermediary-services-act,Stanford research on Taiwan's digital policy
+Taiwan DISA,English,BBC News,https://www.bbc.com/zhongwen/trad/chinese-news-65789432,International coverage of Taiwan's digital policies
+Taiwan DISA,English,South China Morning Post,https://www.scmp.com/tech/policy/article/3225566/taiwan-digital-intermediary-services-act,Regional reporting on Taiwan's tech regulation
+Taiwan DISA,English,CEPA,https://cepa.org/article/taiwans-digital-democracy-initiative/,Think tank analysis of Taiwan's digital policies
+Taiwan DISA,English,Freedom House,https://freedomhouse.org/country/taiwan/freedom-net/2023,Freedom House assessment including DISA
+Taiwan DISA,English,Global Voices,https://globalvoices.org/2023/11/taiwan-digital-intermediary-services-act/,International civil society perspective on DISA
+Taiwan DISA,English,Bloomberg Law,https://news.bloomberglaw.com/tech-and-telecom-law/taiwan-disa-proposal,Legal analysis of Taiwan's proposed DISA
+Taiwan DISA,Chinese,行政院 (Executive Yuan),https://www.ey.gov.tw/Page/9277F759E41CCD91/5bcd1cdb-1378-4518-9f25-f25905c5917a,台灣政府對數位中介服務法的官方聲明
+Taiwan DISA,Chinese,經濟部 (Ministry of Economic Affairs),https://www.moea.gov.tw/MNS/populace/news/News.aspx?kind=1&menu_id=40&news_id=103545,經濟部對DISA的官方立場
+Taiwan DISA,Chinese,數位發展部 (Ministry of Digital Affairs),https://www.moda.gov.tw/News_Content.aspx?n=5&s=12345,數位發展部對DISA的分析
+Taiwan DISA,Chinese,自由時報 (Liberty Times),https://news.ltn.com.tw/news/politics/breakingnews/4422396,台灣媒體對DISA的報導
+Taiwan DISA,Chinese,聯合報 (United Daily News),https://udn.com/news/story/7238/7102341,數位中介服務法的深度報導
+Taiwan DISA,Chinese,中央社 (CNA),https://www.cna.com.tw/news/ait/202309150128.aspx,台灣通訊社對DISA的報導
+Taiwan DISA,Chinese,中國時報 (China Times),https://www.chinatimes.com/realtimenews/20230918002487-260407,台灣媒體對DISA的觀點
+Taiwan DISA,Chinese,風傳媒 (Storm Media),https://www.storm.mg/article/4882531,數位中介服務法的分析報導
+Taiwan DISA,Chinese,關鍵評論網 (The News Lens),https://www.thenewslens.com/article/183765,DISA的深度分析
+Taiwan DISA,Chinese,鏡週刊 (Mirror Media),https://www.mirrormedia.mg/story/20230915inv001/,台灣媒體對DISA的調查報導
+Taiwan DISA,Chinese,蘋果日報 (Apple Daily),https://tw.appledaily.com/property/20230918/X4F6QTGYAZGZVPBWX2XB5UMJFI/,台灣數位法案的報導
+Taiwan DISA,Chinese,天下雜誌 (Commonwealth Magazine),https://www.cw.com.tw/article/5124916,台灣商業雜誌對DISA的分析
+Taiwan DISA,Chinese,報導者 (The Reporter),https://www.twreporter.org/a/digital-intermediary-services-act,深度調查報導DISA
+Taiwan DISA,Chinese,PTT八卦板,https://www.ptt.cc/bbs/Gossiping/M.1694944142.A.A9F.html,台灣網民對DISA的討論
+Taiwan DISA,Chinese,科技橘報 (TechOrange),https://buzzorange.com/techorange/2023/09/18/digital-intermediary-services-act/,台灣科技媒體對DISA的分析
+Expert Analysis,Various,Center for Democracy & Technology,https://cdt.org/insights/analysis-taiwans-disa/,Civil society analysis of Taiwan's DISA
+Expert Analysis,Various,Stanford Internet Observatory,https://cyber.fsi.stanford.edu/io/news/taiwan-digital-regulation,Academic research on Taiwan's digital policy
+Expert Analysis,Various,Brookings Institution,https://www.brookings.edu/articles/taiwans-approach-to-platform-regulation/,Think tank analysis of DISA
+Expert Analysis,Various,Meta Policy Blog,https://about.fb.com/news/2023/04/meta-content-moderation-policies-update/,Meta's statements on fact-checking policies
+Expert Analysis,Various,Electronic Frontier Foundation,https://www.eff.org/deeplinks/2023/10/taiwan-disa-analysis,Digital rights perspective on Taiwan's DISA
+Expert Analysis,Various,Lawfare,https://www.lawfareblog.com/taiwans-digital-intermediary-services-act,Legal analysis of DISA implications
+Expert Analysis,Various,Facebook Oversight Board,https://oversightboard.com/decision/FB-JK7QQZPC/,Official decisions related to Trump's accounts
+Expert Analysis,Various,Harvard Kennedy School,https://www.belfercenter.org/publication/platform-governance-taiwan,Academic analysis of Taiwan's platform governance
+Expert Analysis,Various,Taiwan AI Labs,https://www.ailabs.tw/blog/disa-implications/,AI industry perspective on DISA
+Expert Analysis,Various,台灣人權促進會 (Taiwan Association for Human Rights),https://www.tahr.org.tw/news/3023,台灣人權組織對DISA的評論
