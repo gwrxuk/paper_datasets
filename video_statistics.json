@@ -1,0 +1,241 @@
+{
+  "overall_statistics": {
+    "total_videos": 960,
+    "failed_videos": 0,
+    "total_comments": 10815168,
+    "average_comments_per_video": 11265.8
+  },
+  "language_distribution": {
+    "English": {
+      "count": 3330192,
+      "percentage": 30.791865646469844
+    },
+    "unknown": {
+      "count": 477173,
+      "percentage": 4.412072008497695
+    },
+    "Korean": {
+      "count": 454644,
+      "percentage": 4.203762715475155
+    },
+    "Indonesian": {
+      "count": 361834,
+      "percentage": 3.3456160828939505
+    },
+    "Spanish": {
+      "count": 344519,
+      "percentage": 3.1855168592850336
+    },
+    "German": {
+      "count": 327877,
+      "percentage": 3.031640377662187
+    },
+    "Somali": {
+      "count": 276268,
+      "percentage": 2.554449454691781
+    },
+    "Filipino": {
+      "count": 265386,
+      "percentage": 2.4538315077491166
+    },
+    "Portuguese": {
+      "count": 190013,
+      "percentage": 1.75691214412943
+    },
+    "Turkish": {
+      "count": 187562,
+      "percentage": 1.7342495280702066
+    },
+    "Arabic": {
+      "count": 184388,
+      "percentage": 1.7049018563558143
+    },
+    "Japanese": {
+      "count": 156815,
+      "percentage": 1.4499543603945866
+    },
+    "Welsh": {
+      "count": 152639,
+      "percentage": 1.4113419227514543
+    },
+    "Swahili": {
+      "count": 135862,
+      "percentage": 1.2562171942220408
+    },
+    "Vietnamese": {
+      "count": 120118,
+      "percentage": 1.1106438660962086
+    },
+    "Russian": {
+      "count": 104585,
+      "percentage": 0.9670215016539734
+    },
+    "Dutch": {
+      "count": 102883,
+      "percentage": 0.95128434435785
+    },
+    "French": {
+      "count": 89480,
+      "percentage": 0.827356542219224
+    },
+    "Afrikaans": {
+      "count": 84467,
+      "percentage": 0.7810049737553776
+    },
+    "Romanian": {
+      "count": 81763,
+      "percentage": 0.7560030505305142
+    },
+    "Norwegian": {
+      "count": 73349,
+      "percentage": 0.6782049062945671
+    },
+    "Italian": {
+      "count": 70210,
+      "percentage": 0.649180854148544
+    },
+    "Catalan": {
+      "count": 66800,
+      "percentage": 0.6176510619160054
+    },
+    "Finnish": {
+      "count": 66726,
+      "percentage": 0.6169668376857391
+    },
+    "Estonian": {
+      "count": 64813,
+      "percentage": 0.5992787167060188
+    },
+    "Polish": {
+      "count": 60355,
+      "percentage": 0.5580588299691692
+    },
+    "Danish": {
+      "count": 50400,
+      "percentage": 0.4660121784515968
+    },
+    "Slovenian": {
+      "count": 49091,
+      "percentage": 0.4539088065945901
+    },
+    "Croatian": {
+      "count": 41084,
+      "percentage": 0.37987389562510726
+    },
+    "Persian": {
+      "count": 39742,
+      "percentage": 0.36746539674649525
+    },
+    "Hungarian": {
+      "count": 39052,
+      "percentage": 0.36108546811293174
+    },
+    "Czech": {
+      "count": 35339,
+      "percentage": 0.32675405504565436
+    },
+    "Thai": {
+      "count": 34685,
+      "percentage": 0.320706992253842
+    },
+    "Slovak": {
+      "count": 32680,
+      "percentage": 0.30216821412297984
+    },
+    "Swedish": {
+      "count": 23837,
+      "percentage": 0.22040341860616497
+    },
+    "Lithuanian": {
+      "count": 14839,
+      "percentage": 0.13720545071514378
+    },
+    "Albanian": {
+      "count": 14629,
+      "percentage": 0.13526373330492877
+    },
+    "Chinese (China)": {
+      "count": 13287,
+      "percentage": 0.12285523442631682
+    },
+    "Bulgarian": {
+      "count": 11516,
+      "percentage": 0.1064800842668371
+    },
+    "Ukrainian": {
+      "count": 8752,
+      "percentage": 0.08092338463905507
+    },
+    "Macedonian": {
+      "count": 8592,
+      "percentage": 0.0794439808979389
+    },
+    "Urdu": {
+      "count": 7847,
+      "percentage": 0.07255550722836668
+    },
+    "Latvian": {
+      "count": 4449,
+      "percentage": 0.04113667027641179
+    },
+    "Chinese (Taiwan)": {
+      "count": 3064,
+      "percentage": 0.028330581642374855
+    },
+    "Bangla": {
+      "count": 1026,
+      "percentage": 0.009486676489907508
+    },
+    "Greek": {
+      "count": 994,
+      "percentage": 0.009190795741684271
+    },
+    "Kannada": {
+      "count": 288,
+      "percentage": 0.002662926734009125
+    },
+    "Hebrew": {
+      "count": 239,
+      "percentage": 0.002209859338292295
+    },
+    "Hindi": {
+      "count": 216,
+      "percentage": 0.0019971950505068437
+    },
+    "Malayalam": {
+      "count": 123,
+      "percentage": 0.0011372916259830637
+    },
+    "Tamil": {
+      "count": 79,
+      "percentage": 0.0007304555971761141
+    },
+    "Gujarati": {
+      "count": 62,
+      "percentage": 0.00057326894968252
+    },
+    "Marathi": {
+      "count": 47,
+      "percentage": 0.00043457484895287807
+    },
+    "Telugu": {
+      "count": 47,
+      "percentage": 0.00043457484895287807
+    },
+    "Nepali": {
+      "count": 45,
+      "percentage": 0.0004160823021889258
+    },
+    "Punjabi": {
+      "count": 36,
+      "percentage": 0.00033286584175114064
+    }
+  },
+  "comment_distribution": {
+    "mean": 11265.8,
+    "median": 901.0,
+    "std_dev": 115876.48557017735,
+    "min": 49,
+    "max": 3422819
+  }
+}
