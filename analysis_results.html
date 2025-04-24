@@ -1,0 +1,335 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Polite Response Analysis Results</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 40px; }
+            h1, h2, h3, h4 { color: #2c3e50; }
+            .section { margin: 20px 0; padding: 20px; background-color: #f8f9fa; border-radius: 5px; }
+            .metric { margin: 10px 0; }
+            .effect-size { color: #2980b9; }
+            .interpretation { color: #27ae60; }
+            .significant { color: #e74c3c; font-weight: bold; }
+            .not-significant { color: #7f8c8d; }
+            table { border-collapse: collapse; width: 100%; margin: 10px 0; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            .sentiment-category { margin: 15px 0; }
+            .word-frequency { margin-left: 20px; }
+            .references { margin-top: 30px; }
+            .reference-item { margin: 10px 0; }
+            .visualization { margin: 20px 0; text-align: center; }
+            .visualization img { max-width: 100%; height: auto; }
+            .visualization-caption { margin-top: 10px; font-style: italic; color: #666; }
+            .methodology { margin: 15px 0; padding: 15px; background-color: #fff; border-left: 4px solid #2980b9; }
+            .methodology h4 { margin-top: 0; }
+            .methodology ul { margin: 10px 0; }
+            .methodology li { margin: 5px 0; }
+            .formula { font-family: "Times New Roman", serif; font-style: italic; }
+        </style>
+    </head>
+    <body>
+        <h1>Polite Response Analysis Results</h1>
+    
+        <div class="section">
+            <h2>Distribution Analysis</h2>
+            <div class="methodology">
+                <h4>Distribution Analysis Methodology</h4>
+                <p>The distribution analysis was performed using the following steps:</p>
+                <ol>
+                    <li><strong>Sentiment Score Calculation:</strong>
+                        <ul>
+                            <li>Each response was analyzed using TextBlob's sentiment analyzer</li>
+                            <li>Scores range from -1.0 (most negative) to 1.0 (most positive)</li>
+                            <li>The formula used: <span class="formula">sentiment_score = TextBlob(text).sentiment.polarity</span></li>
+                        </ul>
+                    </li>
+                    <li><strong>Distribution Visualization:</strong>
+                        <ul>
+                            <li>Histograms were created using seaborn's histplot function</li>
+                            <li>Kernel Density Estimation (KDE) curves were added to show the probability density</li>
+                            <li>The KDE formula: <span class="formula">KDE(x) = (1/nh)∑K((x-x_i)/h)</span></li>
+                            <li>Where K is the kernel function, h is the bandwidth, and n is the number of data points</li>
+                        </ul>
+                    </li>
+                    <li><strong>Distribution Statistics:</strong>
+                        <ul>
+                            <li>Mean (μ): <span class="formula">μ = (1/n)∑x_i</span></li>
+                            <li>Standard Deviation (σ): <span class="formula">σ = √[(1/n)∑(x_i - μ)²]</span></li>
+                            <li>Skewness: <span class="formula">γ = (1/n)∑[(x_i - μ)/σ]³</span></li>
+                            <li>Kurtosis: <span class="formula">κ = (1/n)∑[(x_i - μ)/σ]⁴ - 3</span></li>
+                        </ul>
+                    </li>
+                    <li><strong>Interpretation Guidelines:</strong>
+                        <ul>
+                            <li>Normal Distribution: Skewness ≈ 0, Kurtosis ≈ 0</li>
+                            <li>Positive Skew: Right-tailed distribution</li>
+                            <li>Negative Skew: Left-tailed distribution</li>
+                            <li>High Kurtosis: Heavy tails, more outliers</li>
+                            <li>Low Kurtosis: Light tails, fewer outliers</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <div class="visualization">
+                <img src="figures/distribution_plots.png" alt="Distribution of Sentiment Scores">
+                <p class="visualization-caption">Figure 1: Distribution of sentiment scores for initial and thank you responses, comparing GPT and Gemini models. The histograms show the frequency of sentiment scores, while the KDE curves show the probability density.</p>
+            </div>
+        </div>
+    
+        <div class="section">
+            <h2>Effect Size Analysis</h2>
+            <div class="visualization">
+                <img src="figures/effect_sizes.png" alt="Effect Sizes by Model and Metric">
+                <p class="visualization-caption">Figure 2: Cohen's d effect sizes for different metrics, comparing GPT and Gemini models. Reference lines indicate small (0.2), medium (0.5), and large (0.8) effect sizes.</p>
+            </div>
+        </div>
+    
+        <div class="section">
+            <h2>Sentiment Categories Visualization</h2>
+            <div class="visualization">
+                <img src="figures/sentiment_categories.png" alt="Top Words in Each Sentiment Category">
+                <p class="visualization-caption">Figure 3: Frequency of top words in each sentiment category across all responses.</p>
+            </div>
+        </div>
+    
+        <div class="section">
+            <h2>Effect Size Analysis</h2>
+            <h3>Small Effect Size (d = 0.2)</h3>
+            <p>A small effect size indicates subtle differences between responses. This level of effect suggests:</p>
+            <ul>
+                <li>Minor variations in response patterns</li>
+                <li>Small but noticeable differences in politeness levels</li>
+                <li>Subtle changes in emotional expression</li>
+            </ul>
+            
+            <h3>Medium Effect Size (d = 0.5)</h3>
+            <p>A medium effect size represents more substantial differences between responses. This level indicates:</p>
+            <ul>
+                <li>Moderate changes in response characteristics</li>
+                <li>Notable differences in politeness strategies</li>
+                <li>Significant variations in emotional content</li>
+            </ul>
+        </div>
+    
+        <div class="section">
+            <h2>Statistical Comparisons</h2>
+    
+            <h3>GPT - Initial vs Thank You Response Comparison</h3>
+            <div class="metric">
+                <h4>Paired t-test Results</h4>
+                <ul>
+                    <li>t-statistic: -24.649</li>
+                    <li>p-value: 0.000</li>
+                    <li class="significant">
+                        Significant difference
+                    </li>
+                </ul>
+                
+                <h4>Distribution Analysis</h4>
+                <table>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Initial Response</th>
+                        <th>Thank You Response</th>
+                    </tr>
+                    <tr>
+                        <td>Mean</td>
+                        <td>0.237</td>
+                        <td>0.640</td>
+                    </tr>
+                    <tr>
+                        <td>Standard Deviation</td>
+                        <td>0.177</td>
+                        <td>0.181</td>
+                    </tr>
+                    <tr>
+                        <td>Skewness</td>
+                        <td>-0.706</td>
+                        <td>-0.369</td>
+                    </tr>
+                    <tr>
+                        <td>Kurtosis</td>
+                        <td>1.756</td>
+                        <td>1.256</td>
+                    </tr>
+                </table>
+            </div>
+        
+            <h3>Gemini - Initial vs Thank You Response Comparison</h3>
+            <div class="metric">
+                <h4>Paired t-test Results</h4>
+                <ul>
+                    <li>t-statistic: -28.245</li>
+                    <li>p-value: 0.000</li>
+                    <li class="significant">
+                        Significant difference
+                    </li>
+                </ul>
+                
+                <h4>Distribution Analysis</h4>
+                <table>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Initial Response</th>
+                        <th>Thank You Response</th>
+                    </tr>
+                    <tr>
+                        <td>Mean</td>
+                        <td>0.191</td>
+                        <td>0.588</td>
+                    </tr>
+                    <tr>
+                        <td>Standard Deviation</td>
+                        <td>0.175</td>
+                        <td>0.096</td>
+                    </tr>
+                    <tr>
+                        <td>Skewness</td>
+                        <td>-0.264</td>
+                        <td>0.249</td>
+                    </tr>
+                    <tr>
+                        <td>Kurtosis</td>
+                        <td>0.974</td>
+                        <td>-0.577</td>
+                    </tr>
+                </table>
+            </div>
+        
+            <h3>GPT vs Gemini - Initial Response Comparison</h3>
+            <div class="metric">
+                <h4>Independent t-test Results</h4>
+                <ul>
+                    <li>t-statistic: 2.683</li>
+                    <li>p-value: 0.008</li>
+                    <li class="significant">
+                        Significant difference
+                    </li>
+                </ul>
+            </div>
+        
+            <h3>GPT vs Gemini - Thank You Response Comparison</h3>
+            <div class="metric">
+                <h4>Independent t-test Results</h4>
+                <ul>
+                    <li>t-statistic: 3.698</li>
+                    <li>p-value: 0.000</li>
+                    <li class="significant">
+                        Significant difference
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Model Comparisons</h2>
+    
+            <h3>GPT Analysis</h3>
+            <div class="metric">
+                <h4>Initial vs Thank You Response Comparison</h4>
+        
+                <p><strong>Response Length:</strong></p>
+                <ul>
+                    <li>Initial Response Mean: 270.911</li>
+                    <li>Thank You Response Mean: 185.075</li>
+                    <li class="effect-size">Effect Size (Cohen's d): 2.481</li>
+                    <li class="interpretation">Interpretation: Large effect</li>
+                </ul>
+            
+                <p><strong>Sentiment Score:</strong></p>
+                <ul>
+                    <li>Initial Response Mean: 0.237</li>
+                    <li>Thank You Response Mean: 0.640</li>
+                    <li class="effect-size">Effect Size (Cohen's d): -2.247</li>
+                    <li class="interpretation">Interpretation: Large effect</li>
+                </ul>
+            
+                <p><strong>Politeness Score:</strong></p>
+                <ul>
+                    <li>Initial Response Mean: 0.493</li>
+                    <li>Thank You Response Mean: 0.197</li>
+                    <li class="effect-size">Effect Size (Cohen's d): 0.554</li>
+                    <li class="interpretation">Interpretation: Medium effect</li>
+                </ul>
+            </div>
+            <h3>Gemini Analysis</h3>
+            <div class="metric">
+                <h4>Initial vs Thank You Response Comparison</h4>
+        
+                <p><strong>Response Length:</strong></p>
+                <ul>
+                    <li>Initial Response Mean: 263.291</li>
+                    <li>Thank You Response Mean: 173.606</li>
+                    <li class="effect-size">Effect Size (Cohen's d): 2.094</li>
+                    <li class="interpretation">Interpretation: Large effect</li>
+                </ul>
+            
+                <p><strong>Sentiment Score:</strong></p>
+                <ul>
+                    <li>Initial Response Mean: 0.191</li>
+                    <li>Thank You Response Mean: 0.588</li>
+                    <li class="effect-size">Effect Size (Cohen's d): -2.807</li>
+                    <li class="interpretation">Interpretation: Large effect</li>
+                </ul>
+            
+                <p><strong>Politeness Score:</strong></p>
+                <ul>
+                    <li>Initial Response Mean: 0.573</li>
+                    <li>Thank You Response Mean: 1.653</li>
+                    <li class="effect-size">Effect Size (Cohen's d): -1.801</li>
+                    <li class="interpretation">Interpretation: Large effect</li>
+                </ul>
+            </div></div>
+        <div class="section">
+            <h2>Sentiment Categories Analysis</h2>
+            <h3>Explanation of Emotional Words</h3>
+            <p>The analysis of emotional words in the responses reveals:</p>
+            <ul>
+                <li>Both models use emotional words primarily in supportive contexts</li>
+                <li>Common emotional words include: feel, understand, support, care</li>
+                <li>Emotional language is used to express empathy and connection</li>
+                <li>The usage is balanced between initial and thank you responses</li>
+            </ul>
+            
+            <h3>Word Categories and Frequencies</h3>
+    
+            <div class="sentiment-category">
+                <h4>Positive Words</h4>
+                <div class="word-frequency">
+        <ul><li>welcome: 402</li><li>glad: 219</li><li>helpful: 78</li><li>wonderful: 41</li><li>happy: 40</li><li>great: 20</li><li>thank: 20</li><li>good: 19</li><li>appreciate: 18</li></ul></div></div>
+            <div class="sentiment-category">
+                <h4>Negative Words</h4>
+                <div class="word-frequency">
+        <ul><li>sorry: 20</li><li>challenging: 17</li><li>difficult: 15</li><li>frustrating: 6</li><li>unable: 1</li></ul></div></div>
+            <div class="sentiment-category">
+                <h4>Neutral Words</h4>
+                <div class="word-frequency">
+        <ul><li>understand: 135</li><li>question: 5</li><li>information: 3</li><li>answer: 1</li><li>explain: 1</li></ul></div></div>
+            <div class="sentiment-category">
+                <h4>Polite Words</h4>
+                <div class="word-frequency">
+        <ul><li>please: 294</li><li>could: 249</li><li>let: 33</li><li>might: 32</li><li>may: 12</li><li>would: 5</li><li>should: 4</li><li>allow: 2</li></ul></div></div>
+            <div class="sentiment-category">
+                <h4>Emotional Words</h4>
+                <div class="word-frequency">
+        <ul><li>feel: 443</li><li>care: 127</li><li>support: 116</li><li>hope: 63</li><li>heart: 46</li><li>wish: 9</li><li>passion: 4</li><li>spirit: 2</li><li>soul: 1</li><li>emotion: 1</li></ul></div></div></div>
+        <div class="section references">
+            <h2>Academic References</h2>
+            <div class="reference-list">
+                <p class="reference-item">Cohen, J. (1988). Statistical power analysis for the behavioral sciences (2nd ed.). Lawrence Erlbaum Associates.</p>
+                
+                <p class="reference-item">Pennebaker, J. W., Booth, R. J., & Francis, M. E. (2007). Linguistic Inquiry and Word Count: LIWC [Computer software]. Austin, TX: liwc.net.</p>
+                
+                <p class="reference-item">Tausczik, Y. R., & Pennebaker, J. W. (2010). The psychological meaning of words: LIWC and computerized text analysis methods. Journal of Language and Social Psychology, 29(1), 24-54.</p>
+                
+                <p class="reference-item">Brown, P., & Levinson, S. C. (1987). Politeness: Some universals in language usage. Cambridge University Press.</p>
+                
+                <p class="reference-item">Wilson, T., Wiebe, J., & Hoffmann, P. (2005). Recognizing contextual polarity in phrase-level sentiment analysis. Proceedings of the Conference on Human Language Technology and Empirical Methods in Natural Language Processing, 347-354.</p>
+                
+                <p class="reference-item">Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2019). BERT: Pre-training of deep bidirectional transformers for language understanding. Proceedings of NAACL-HLT 2019, 4171-4186.</p>
+                
+                <p class="reference-item">Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is all you need. Advances in Neural Information Processing Systems, 30, 5998-6008.</p>
+            </div>
+        </div>
+    </body></html>
