@@ -4,7 +4,7 @@ import googleapiclient.discovery
 from googleapiclient.errors import HttpError
 
 # YouTube Data API setup
-API_KEY = "AIzaSyD8enbIC6BEs-KgNG32zTyXI6v_O82wb5E"  # YouTube Data API key
+API_KEY = ""  # YouTube Data API key
 youtube = googleapiclient.discovery.build('youtube', 'v3', developerKey=API_KEY)
 
 def extract_video_ids():
