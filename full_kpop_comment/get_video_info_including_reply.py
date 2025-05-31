@@ -6,7 +6,7 @@ import time
 import json
 
 # YouTube Data API setup
-API_KEY = "AIzaSyBIznwATjgsaiLjtkQbpXX22AL548aUmng"  # YouTube Data API key
+API_KEY = "apikey"  # YouTube Data API key
 youtube = googleapiclient.discovery.build('youtube', 'v3', developerKey=API_KEY)
 
 def extract_video_ids():
