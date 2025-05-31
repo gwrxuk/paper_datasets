@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <records>
+    <record>
+      <ref-type name="Electronic Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Buscemi, A.</author>
+          <author>Proverbio, D.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>ChatGPT vs. Gemini vs. LLaMA on multilingual sentiment analysis</title>
+      </titles>
+      <periodical>
+        <full-title>arXiv preprint</full-title>
+      </periodical>
+      <electronic-resource-num>arXiv:2402.01715</electronic-resource-num>
+      <dates>
+        <year>2024</year>
+      </dates>
+      <urls>
+        <related-urls>https://arxiv.org/abs/2402.01715</related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Chaturvedi, R.</author>
+          <author>Verma, S.</author>
+          <author>Das, R.</author>
+          <author>Dwivedi, Y. K.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Social companionship with artificial intelligence: Recent trends and future avenues</title>
+      </titles>
+      <periodical>
+        <full-title>Technological Forecasting and Social Change</full-title>
+      </periodical>
+      <dates>
+        <year>2023</year>
+      </dates>
+      <volume>193</volume>
+      <pages>122504</pages>
+      <electronic-resource-num>10.1016/j.techfore.2023.122634</electronic-resource-num>
+      <urls>
+        <related-urls>https://doi.org/10.1016/j.techfore.2023.122634</related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Daft, R. L.</author>
+          <author>Lengel, R. H.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Organizational information requirements, media richness and structural design</title>
+      </titles>
+      <periodical>
+        <full-title>Management Science</full-title>
+      </periodical>
+      <dates>
+        <year>1986</year>
+      </dates>
+      <volume>32</volume>
+      <number>5</number>
+      <pages>554-571</pages>
+    </record>
+    <record>
+      <ref-type name="Book">6</ref-type>
+      <contributors>
+        <authors>
+          <author>Gibson, J. J.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>The Ecological Approach to Visual Perception</title>
+      </titles>
+      <dates>
+        <year>1979</year>
+      </dates>
+      <publisher>
+        <publisher-name>Houghton Mifflin</publisher-name>
+      </publisher>
+    </record>
+    <record>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Hutchby, I.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Technologies, texts and affordances</title>
+      </titles>
+      <periodical>
+        <full-title>Sociology</full-title>
+      </periodical>
+      <dates>
+        <year>2001</year>
+      </dates>
+      <volume>35</volume>
+      <number>2</number>
+      <pages>441-456</pages>
+      <electronic-resource-num>10.1017/s0038038501000219</electronic-resource-num>
+      <urls>
+        <related-urls>https://doi.org/10.1017/s0038038501000219</related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Newspaper Article">18</ref-type>
+      <contributors>
+        <authors>
+          <author>Hu, K.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>ChatGPT sets record for fastest-growing user base - analyst note</title>
+      </titles>
+      <periodical>
+        <full-title>Reuters</full-title>
+      </periodical>
+      <dates>
+        <year>2023</year>
+        <date>Feb 2</date>
+      </dates>
+    </record>
+    <record>
+      <ref-type name="Book">6</ref-type>
+      <contributors>
+        <authors>
+          <author>Jackson, P.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Introduction to Expert Systems</title>
+      </titles>
+      <edition>3rd ed.</edition>
+      <dates>
+        <year>1999</year>
+      </dates>
+      <publisher>
+        <publisher-name>Addison-Wesley</publisher-name>
+      </publisher>
+    </record>
+    <record>
+      <ref-type name="Conference Proceedings">10</ref-type>
+      <contributors>
+        <authors>
+          <author>Lin, C. Y.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>ROUGE: A package for automatic evaluation of summaries</title>
+      </titles>
+      <periodical>
+        <full-title>Proc. of Workshop on Text Summarization Branches Out</full-title>
+      </periodical>
+      <dates>
+        <year>2004</year>
+      </dates>
+      <pages>74-81</pages>
+    </record>
+    <record>
+      <ref-type name="Book">6</ref-type>
+      <contributors>
+        <authors>
+          <author>Mead, G. H.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Mind, Self and Society</title>
+      </titles>
+      <dates>
+        <year>1934</year>
+      </dates>
+      <publisher>
+        <publisher-name>University of Chicago Press</publisher-name>
+      </publisher>
+    </record>
+    <record>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Nass, C.</author>
+          <author>Moon, Y.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Machines and mindlessness: Social responses to computers</title>
+      </titles>
+      <periodical>
+        <full-title>Journal of Social Issues</full-title>
+      </periodical>
+      <dates>
+        <year>2000</year>
+      </dates>
+      <volume>56</volume>
+      <number>1</number>
+      <pages>81-103</pages>
+      <electronic-resource-num>10.1111/0022-4537.00153</electronic-resource-num>
+      <urls>
+        <related-urls>https://doi.org/10.1111/0022-4537.00153</related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Neff, G.</author>
+          <author>Nagy, P.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Talking to bots: Symbiotic agency and the case of Tay</title>
+      </titles>
+      <periodical>
+        <full-title>International Journal of Communication</full-title>
+      </periodical>
+      <dates>
+        <year>2016</year>
+      </dates>
+      <volume>10</volume>
+      <pages>4915-4931</pages>
+    </record>
+    <record>
+      <ref-type name="Electronic Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Nori, H.</author>
+          <author>Tew, B.</author>
+          <author>et al.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Capabilities of GPT-4 on medical challenge problems</title>
+      </titles>
+      <periodical>
+        <full-title>arXiv preprint</full-title>
+      </periodical>
+      <electronic-resource-num>arXiv:2303.13375</electronic-resource-num>
+      <dates>
+        <year>2023</year>
+      </dates>
+      <urls>
+        <related-urls>https://arxiv.org/abs/2303.13375</related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Report">38</ref-type>
+      <contributors>
+        <authors>
+          <author>OpenAI</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>GPT-4 Technical Report</title>
+      </titles>
+      <dates>
+        <year>2023</year>
+      </dates>
+    </record>
+    <record>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Ramaul, L.</author>
+          <author>Ritala, P.</author>
+          <author>Ruokonen, M.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Creational and conversational AI affordances: How the new breed of chatbots is revolutionizing knowledge industries</title>
+      </titles>
+      <periodical>
+        <full-title>Business Horizons</full-title>
+      </periodical>
+      <dates>
+        <year>2024</year>
+      </dates>
+      <volume>67</volume>
+      <number>5</number>
+      <pages>615-627</pages>
+      <electronic-resource-num>10.1016/j.bushor.2024.05.006</electronic-resource-num>
+      <urls>
+        <related-urls>https://doi.org/10.1016/j.bushor.2024.05.006</related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Book">6</ref-type>
+      <contributors>
+        <authors>
+          <author>Reuters Institute</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Journalism, Media, and Technology Trends and Predictions 2023</title>
+      </titles>
+      <dates>
+        <year>2023</year>
+      </dates>
+      <publisher>
+        <publisher-name>Reuters Institute for the Study of Journalism, University of Oxford</publisher-name>
+      </publisher>
+    </record>
+    <record>
+      <ref-type name="Conference Proceedings">10</ref-type>
+      <contributors>
+        <authors>
+          <author>Reinecke, M. G.</author>
+          <author>Ting, F.</author>
+          <author>Savulescu, J.</author>
+          <author>Singh, I.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>The double-edged sword of anthropomorphism in LLMs</title>
+      </titles>
+      <periodical>
+        <full-title>Proceedings of AdaptEdu 2024</full-title>
+      </periodical>
+      <dates>
+        <year>2025</year>
+      </dates>
+      <volume>114</volume>
+      <pages>4</pages>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </record>
+    <record>
+      <ref-type name="Book">6</ref-type>
+      <contributors>
+        <authors>
+          <author>Short, J.</author>
+          <author>Williams, E.</author>
+          <author>Christie, B.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>The Social Psychology of Telecommunications</title>
+      </titles>
+      <dates>
+        <year>1976</year>
+      </dates>
+      <publisher>
+        <publisher-name>John Wiley &amp; Sons</publisher-name>
+      </publisher>
+    </record>
+    <record>
+      <ref-type name="Book Section">7</ref-type>
+      <contributors>
+        <authors>
+          <author>Sundar, S. S.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>The MAIN model: A heuristic approach to understanding technology effects on credibility</title>
+      </titles>
+      <periodical>
+        <full-title>Communication and Technology</full-title>
+      </periodical>
+      <dates>
+        <year>2016</year>
+      </dates>
+      <pages>231-244</pages>
+      <publisher>
+        <publisher-name>De Gruyter</publisher-name>
+      </publisher>
+    </record>
+    <record>
+      <ref-type name="Electronic Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Wei, J.</author>
+          <author>Wang, X.</author>
+          <author>Schuurmans, D.</author>
+          <author>Bosma, M.</author>
+          <author>Ichter, B.</author>
+          <author>Xia, F.</author>
+          <author>Chi, E.</author>
+          <author>Le, Q. V.</author>
+          <author>Zhou, D.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Chain-of-thought prompting elicits reasoning in large language models</title>
+      </titles>
+      <periodical>
+        <full-title>arXiv preprint</full-title>
+      </periodical>
+      <electronic-resource-num>arXiv:2201.11903</electronic-resource-num>
+      <dates>
+        <year>2022</year>
+      </dates>
+      <urls>
+        <related-urls>https://arxiv.org/abs/2201.11903</related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Conference Proceedings">10</ref-type>
+      <contributors>
+        <authors>
+          <author>Xu, Y.</author>
+          <author>Li, Z.</author>
+          <author>Song, W.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>“It always gives a well-structured answer”: Unpacking social media users’ perceptions of ChatGPT</title>
+      </titles>
+      <periodical>
+        <full-title>CHI ’23 Extended Abstracts</full-title>
+      </periodical>
+      <dates>
+        <year>2023</year>
+      </dates>
+      <pages>Article 345</pages>
+    </record>
+    <record>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Yao, Y.</author>
+          <author>Chen, J.</author>
+          <author>Wu, X.</author>
+          <author>et al.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>A survey on large language model (LLM) security and privacy: The good, the bad, and the ugly</title>
+      </titles>
+      <periodical>
+        <full-title>High-Confidence Computing</full-title>
+      </periodical>
+      <dates>
+        <year>2024</year>
+      </dates>
+      <volume>1</volume>
+      <pages>100211</pages>
+      <electronic-resource-num>10.1016/j.hcc.2024.100211</electronic-resource-num>
+      <urls>
+        <related-urls>https://doi.org/10.1016/j.hcc.2024.100211</related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Conference Proceedings">10</ref-type>
+      <contributors>
+        <authors>
+          <author>Zhang, H.</author>
+          <author>Deng, X.</author>
+          <author>Wang, S.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Disaffordances or affordances: Perceptions of ChatGPT in the workplace</title>
+      </titles>
+      <periodical>
+        <full-title>Proc. of the 26th ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW)</full-title>
+      </periodical>
+      <dates>
+        <year>2023</year>
+      </dates>
+      <electronic-resource-num>10.1016/j.sftr.2025.100632</electronic-resource-num>
+      <urls>
+        <related-urls>https://doi.org/10.1016/j.sftr.2025.100632</related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Electronic Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Zheng, L.</author>
+          <author>Pavlidis, P.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Do large language models reflect cultural biases in social discourse?</title>
+      </titles>
+      <periodical>
+        <full-title>Computational Brain &amp; Behavior</full-title>
+      </periodical>
+      <dates>
+        <year>2023</year>
+      </dates>
+      <notes>Advance online publication</notes>
+    </record>
+  </records>
+</xml>

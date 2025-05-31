@@ -1,0 +1,11 @@
+Multilingual Metadata Analysis
+==================================================
+
+Average number of languages in video titles: 2.6
+Average number of languages in video descriptions: 4.0
+
+Language Prevalence in Video Titles:
+----------------------------------------
+
+Language Prevalence in Video Descriptions:
+----------------------------------------

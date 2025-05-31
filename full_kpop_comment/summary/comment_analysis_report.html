@@ -1,0 +1,428 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>YouTube Comment Analysis Report</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                background-color: white;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+            h1, h2 {
+                color: #333;
+                border-bottom: 2px solid #eee;
+                padding-bottom: 10px;
+            }
+            .stats-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 20px;
+                margin: 20px 0;
+            }
+            .stat-card {
+                background-color: #f8f9fa;
+                padding: 15px;
+                border-radius: 5px;
+                border-left: 4px solid #007bff;
+            }
+            .stat-card h3 {
+                margin: 0;
+                color: #666;
+                font-size: 0.9em;
+            }
+            .stat-card p {
+                margin: 5px 0 0;
+                font-size: 1.5em;
+                font-weight: bold;
+                color: #333;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+            }
+            th, td {
+                padding: 12px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+            th {
+                background-color: #f8f9fa;
+                font-weight: bold;
+            }
+            tr:hover {
+                background-color: #f5f5f5;
+            }
+            .timestamp {
+                color: #666;
+                font-size: 0.9em;
+                text-align: right;
+                margin-top: 20px;
+            }
+            .zero-comments {
+                background-color: #fff3cd;
+            }
+            .video-title {
+                max-width: 400px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            .coverage {
+                margin: 20px 0;
+                padding: 15px;
+                background-color: #e9ecef;
+                border-radius: 5px;
+            }
+            .stats-section {
+                margin: 20px 0;
+                padding: 15px;
+                background-color: #f8f9fa;
+                border-radius: 5px;
+            }
+            .language-stats {
+                margin: 20px 0;
+                padding: 15px;
+                background-color: #e9ecef;
+                border-radius: 5px;
+            }
+            .language-table {
+                width: 100%;
+                margin-top: 10px;
+            }
+            .language-table th, .language-table td {
+                padding: 8px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+            .language-table th {
+                background-color: #f8f9fa;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>YouTube Comment Analysis Report</h1>
+            
+            <div class="coverage">
+                <h3>Video Coverage</h3>
+                <p>Total videos in dataset: 2,203</p>
+                <p>Videos with comments: 2,190 (99.4%)</p>
+                <p>Videos without comments: 13 (0.6%)</p>
+            </div>
+
+            <div class="language-stats">
+                <h2>Language Statistics</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>Unique Languages in Titles</h3>
+                        <p>1</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Unique Languages in Descriptions</h3>
+                        <p>1</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Unique Languages in Comments</h3>
+                        <p>0</p>
+                    </div>
+                </div>
+
+                <h3>Top 10 Languages in Titles</h3>
+                <table class="language-table">
+                    <tr>
+                        <th>Language</th>
+                        <th>Count</th>
+                        <th>Percentage</th>
+                    </tr>
+                    
+                    <tr>
+                        <td>unknown</td>
+                        <td>2,203</td>
+                        <td>100.0%</td>
+                    </tr>
+                    
+                </table>
+
+                <h3>Top 10 Languages in Descriptions</h3>
+                <table class="language-table">
+                    <tr>
+                        <th>Language</th>
+                        <th>Count</th>
+                        <th>Percentage</th>
+                    </tr>
+                    
+                    <tr>
+                        <td>unknown</td>
+                        <td>2,203</td>
+                        <td>100.0%</td>
+                    </tr>
+                    
+                </table>
+
+                <h3>Top 10 Languages in Comments</h3>
+                <table class="language-table">
+                    <tr>
+                        <th>Language</th>
+                        <th>Count</th>
+                        <th>Percentage</th>
+                    </tr>
+                    
+                </table>
+            </div>
+
+            <div class="stats-section">
+                <h2>Comment Statistics</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>Total Comments</h3>
+                        <p>11,141,469</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Average Comments per Video</h3>
+                        <p>5,087.43</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Median Comments per Video</h3>
+                        <p>965.50</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Max Comments per Video</h3>
+                        <p>267,332</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-section">
+                <h2>Like Statistics</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>Total Likes</h3>
+                        <p>77,652,990</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Average Likes per Comment</h3>
+                        <p>6.97</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Median Likes per Comment</h3>
+                        <p>6.84</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Max Likes per Comment</h3>
+                        <p>177.88971962616822</p>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Top 10 Most Commented Videos</h2>
+            <table>
+                <tr>
+                    <th>Video ID</th>
+                    <th>Title</th>
+                    <th>Comment Count</th>
+                    <th>Total Likes</th>
+                    <th>Avg Likes/Comment</th>
+                </tr>
+                
+                <tr>
+                    <td>_btxV8tJM7w</td>
+                    <td class="video-title" title="D.O. 디오 'Rose' MV">D.O. 디오 'Rose' MV</td>
+                    <td>267,332</td>
+                    <td>1,357,265</td>
+                    <td>5.08</td>
+                </tr>
+                
+                <tr>
+                    <td>dYRITmpFbJ4</td>
+                    <td class="video-title" title="aespa 에스파 'Girls' MV">aespa 에스파 'Girls' MV</td>
+                    <td>265,804</td>
+                    <td>920,568</td>
+                    <td>3.46</td>
+                </tr>
+                
+                <tr>
+                    <td>eQNHDV7lKgE</td>
+                    <td class="video-title" title="JENNIE - ‘You & Me’ DANCE PERFORMANCE VIDEO">JENNIE - ‘You & Me’ DANCE PERFORMANCE VIDEO</td>
+                    <td>245,971</td>
+                    <td>574,558</td>
+                    <td>2.34</td>
+                </tr>
+                
+                <tr>
+                    <td>6SbXGBC7GU4</td>
+                    <td class="video-title" title="EXO-SC 세훈&찬열 'On Me' Track MV (SEHUN Solo)">EXO-SC 세훈&찬열 'On Me' Track MV (SEHUN Solo)</td>
+                    <td>209,146</td>
+                    <td>494,762</td>
+                    <td>2.37</td>
+                </tr>
+                
+                <tr>
+                    <td>gQlMMD8auMs</td>
+                    <td class="video-title" title="BLACKPINK - ‘Pink Venom’ M/V">BLACKPINK - ‘Pink Venom’ M/V</td>
+                    <td>145,695</td>
+                    <td>356,982</td>
+                    <td>2.45</td>
+                </tr>
+                
+                <tr>
+                    <td>R9VDPMk5ls0</td>
+                    <td class="video-title" title="[M/V] SEVENTEEN(세븐틴) - Home">[M/V] SEVENTEEN(세븐틴) - Home</td>
+                    <td>127,968</td>
+                    <td>831,543</td>
+                    <td>6.50</td>
+                </tr>
+                
+                <tr>
+                    <td>VjjKbrFJoxY</td>
+                    <td class="video-title" title="FILM : KAI">FILM : KAI</td>
+                    <td>114,361</td>
+                    <td>478,847</td>
+                    <td>4.19</td>
+                </tr>
+                
+                <tr>
+                    <td>1WsSY1I17gw</td>
+                    <td class="video-title" title="BTS (방탄소년단) 'Butter' in 노래방">BTS (방탄소년단) 'Butter' in 노래방</td>
+                    <td>113,876</td>
+                    <td>393,967</td>
+                    <td>3.46</td>
+                </tr>
+                
+                <tr>
+                    <td>aqtSOksH-NE</td>
+                    <td class="video-title" title="Abyss by Jin">Abyss by Jin</td>
+                    <td>111,757</td>
+                    <td>203,912</td>
+                    <td>1.82</td>
+                </tr>
+                
+                <tr>
+                    <td>S50SYJbyXY4</td>
+                    <td class="video-title" title="[CHOREOGRAPHY] BTS (방탄소년단) ‘Butter (Holiday Remix)’ Dance Practice">[CHOREOGRAPHY] BTS (방탄소년단) ‘Butter (Holiday Remix)’ Dance Practice</td>
+                    <td>105,328</td>
+                    <td>240,055</td>
+                    <td>2.28</td>
+                </tr>
+                
+            </table>
+
+            <h2>Bottom 10 Least Commented Videos</h2>
+            <table>
+                <tr>
+                    <th>Video ID</th>
+                    <th>Title</th>
+                    <th>Comment Count</th>
+                    <th>Total Likes</th>
+                    <th>Avg Likes/Comment</th>
+                </tr>
+                
+                <tr>
+                    <td>EdzFkgaMcJk</td>
+                    <td class="video-title" title="[할수있셔] 인생의 회전목마🎠 #shorts">[할수있셔] 인생의 회전목마🎠 #shorts</td>
+                    <td>56</td>
+                    <td>323</td>
+                    <td>5.77</td>
+                </tr>
+                
+                <tr>
+                    <td>4hP8z3aDbxo</td>
+                    <td class="video-title" title="彩領上大學「我交個校園情侶怎麼樣?」 打電話問JYP竟然回答「當然好啊!」｜【ITZY】">彩領上大學「我交個校園情侶怎麼樣?」 打電話問JYP竟然回答「當然好啊!」｜【ITZY】</td>
+                    <td>53</td>
+                    <td>2,295</td>
+                    <td>43.30</td>
+                </tr>
+                
+                <tr>
+                    <td>5BNGMryQ8Xk</td>
+                    <td class="video-title" title="IU(아이유) - 2014학년도 수능 응원 메시지 (Supporting Message for the College Scholastic Ability Test)">IU(아이유) - 2014학년도 수능 응원 메시지 (Supporting Message for the College Scholastic Ability Test)</td>
+                    <td>52</td>
+                    <td>28</td>
+                    <td>0.54</td>
+                </tr>
+                
+                <tr>
+                    <td>o-PDthYLa6Y</td>
+                    <td class="video-title" title="아이유(IU) 첫 단독콘서트 [REAL FANTASY] 공연 홍보 영상">아이유(IU) 첫 단독콘서트 [REAL FANTASY] 공연 홍보 영상</td>
+                    <td>51</td>
+                    <td>48</td>
+                    <td>0.94</td>
+                </tr>
+                
+                <tr>
+                    <td>pVomGgRdKb8</td>
+                    <td class="video-title" title="Namjoon said it himself! BTS paved the way for ASIA!! #bts #nevaplay #shorts">Namjoon said it himself! BTS paved the way for ASIA!! #bts #nevaplay #shorts</td>
+                    <td>44</td>
+                    <td>389</td>
+                    <td>8.84</td>
+                </tr>
+                
+                <tr>
+                    <td>IGAImxTJ50w</td>
+                    <td class="video-title" title="恩採泳池玩超嗨突然發現「我忘記拆麥克風!」 采源守護兩季的瀏海遇到飛蟲自願放棄｜【LE SSERAFIM】">恩採泳池玩超嗨突然發現「我忘記拆麥克風!」 采源守護兩季的瀏海遇到飛蟲自願放棄｜【LE SSERAFIM】</td>
+                    <td>25</td>
+                    <td>495</td>
+                    <td>19.80</td>
+                </tr>
+                
+                <tr>
+                    <td>lu1pE0biSeU</td>
+                    <td class="video-title" title="海嫄重現童年造型英文演講第一名! 隊友自介全是動物Bae「我可是梁山麻醉槍!」｜【NMIXX】">海嫄重現童年造型英文演講第一名! 隊友自介全是動物Bae「我可是梁山麻醉槍!」｜【NMIXX】</td>
+                    <td>24</td>
+                    <td>841</td>
+                    <td>35.04</td>
+                </tr>
+                
+                <tr>
+                    <td>5eq1mCNRt3s</td>
+                    <td class="video-title" title="ITZY編舞變簡單的原因看了超心碎💔3成員曝膝蓋關節不好留真連彎腰都無法！｜#itzy">ITZY編舞變簡單的原因看了超心碎💔3成員曝膝蓋關節不好留真連彎腰都無法！｜#itzy</td>
+                    <td>16</td>
+                    <td>677</td>
+                    <td>42.31</td>
+                </tr>
+                
+                <tr>
+                    <td>bRit85__beA</td>
+                    <td class="video-title" title="采源失誤名場面連Minji都忍不住模仿 柔理、恩妃爆料YENA早在群組裡嘟嘟嘟嘟!｜#lesserafim">采源失誤名場面連Minji都忍不住模仿 柔理、恩妃爆料YENA早在群組裡嘟嘟嘟嘟!｜#lesserafim</td>
+                    <td>15</td>
+                    <td>734</td>
+                    <td>48.93</td>
+                </tr>
+                
+                <tr>
+                    <td>TO_uf_14eOk</td>
+                    <td class="video-title" title="太妍默默幫忙改造少年收容所超暖心善良真誠又低調「成為有意義的禮物!」｜【Taeyeon】">太妍默默幫忙改造少年收容所超暖心善良真誠又低調「成為有意義的禮物!」｜【Taeyeon】</td>
+                    <td>3</td>
+                    <td>6</td>
+                    <td>2.00</td>
+                </tr>
+                
+            </table>
+
+            <h2>Videos with No Comments</h2>
+            <table>
+                <tr>
+                    <th>Video ID</th>
+                    <th>Title</th>
+                </tr>
+                
+            </table>
+
+            <div class="timestamp">
+                Report generated on: 2025-05-22 11:05:29
+            </div>
+        </div>
+    </body>
+    </html>
+    

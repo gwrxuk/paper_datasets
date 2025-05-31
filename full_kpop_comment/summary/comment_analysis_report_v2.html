@@ -1,0 +1,210 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>YouTube Comment Analysis Report v2</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            .section { margin-bottom: 30px; }
+            table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .stats { display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 20px; }
+            .stat-box { 
+                background-color: #f8f9fa;
+                border: 1px solid #dee2e6;
+                border-radius: 4px;
+                padding: 15px;
+                min-width: 200px;
+            }
+            .stat-value { font-size: 24px; font-weight: bold; color: #0d6efd; }
+            .stat-label { color: #6c757d; }
+        </style>
+    </head>
+    <body>
+        <h1>YouTube Comment Analysis Report v2</h1>
+        <p>Generated on: 2025-05-26 20:40:11</p>
+        
+        <div class="section">
+            <h2>Comment Statistics</h2>
+            <div class="stats">
+                <div class="stat-box">
+                    <div class="stat-value">2,203</div>
+                    <div class="stat-label">Total Videos</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value">10,849,971</div>
+                    <div class="stat-label">Total Comments</div>
+                </div>
+            </div>
+            
+            <h3>Comment Count Statistics per Video</h3>
+            <table class="stat-table">
+                <tr>
+                    <th>Metric</th>
+                    <th>Value</th>
+                </tr>
+                <tr>
+                    <td>Average Comments</td>
+                    <td>4954.3</td>
+                </tr>
+                <tr>
+                    <td>Median Comments</td>
+                    <td>940.0</td>
+                </tr>
+                <tr>
+                    <td>Maximum Comments</td>
+                    <td>262,179</td>
+                </tr>
+                <tr>
+                    <td>Minimum Comments</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Standard Deviation</td>
+                    <td>15151.1</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>Like Count Statistics</h2>
+            <table class="stat-table">
+                <tr>
+                    <th>Metric</th>
+                    <th>Value</th>
+                </tr>
+                <tr>
+                    <td>Average Likes</td>
+                    <td>298775.6</td>
+                </tr>
+                <tr>
+                    <td>Median Likes</td>
+                    <td>84878.0</td>
+                </tr>
+                <tr>
+                    <td>Maximum Likes</td>
+                    <td>17,033,460</td>
+                </tr>
+                <tr>
+                    <td>Minimum Likes</td>
+                    <td>63</td>
+                </tr>
+                <tr>
+                    <td>Standard Deviation</td>
+                    <td>807210.6</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>Language Statistics</h2>
+            <div class="stats">
+                <div class="stat-box">
+                    <div class="stat-value">84</div>
+                    <div class="stat-label">Global Unique Comment Languages</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value">84</div>
+                    <div class="stat-label">Maximum Languages in a Single Video</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Top 10 Languages in Video Titles</h2>
+            <table class="stat-table">
+                <tr>
+                    <th>Language</th>
+                    <th>Count</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr><td>en</td><td>2102</td><td>95.4%</td></tr><tr><td>ko</td><td>1469</td><td>66.7%</td></tr><tr><td>zh-cn</td><td>424</td><td>19.2%</td></tr><tr><td>ja</td><td>216</td><td>9.8%</td></tr><tr><td>de</td><td>215</td><td>9.8%</td></tr><tr><td>mt</td><td>166</td><td>7.5%</td></tr><tr><td>it</td><td>125</td><td>5.7%</td></tr><tr><td>fr</td><td>93</td><td>4.2%</td></tr><tr><td>es</td><td>78</td><td>3.5%</td></tr><tr><td>he</td><td>71</td><td>3.2%</td></tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>Top 10 Languages in Video Descriptions</h2>
+            <table class="stat-table">
+                <tr>
+                    <th>Language</th>
+                    <th>Count</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr><td>en</td><td>1585</td><td>71.9%</td></tr><tr><td>ko</td><td>1322</td><td>60.0%</td></tr><tr><td>es</td><td>1220</td><td>55.4%</td></tr><tr><td>de</td><td>622</td><td>28.2%</td></tr><tr><td>ur</td><td>393</td><td>17.8%</td></tr><tr><td>it</td><td>348</td><td>15.8%</td></tr><tr><td>fr</td><td>333</td><td>15.1%</td></tr><tr><td>fi</td><td>322</td><td>14.6%</td></tr><tr><td>zh-cn</td><td>316</td><td>14.3%</td></tr><tr><td>ja</td><td>298</td><td>13.5%</td></tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>Top 10 Languages in Comments</h2>
+            <table class="stat-table">
+                <tr>
+                    <th>Language</th>
+                    <th>Count</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr><td>en</td><td>5158811</td><td>47.5%</td></tr><tr><td>ko</td><td>889799</td><td>8.2%</td></tr><tr><td>zh</td><td>517526</td><td>4.8%</td></tr><tr><td>ja</td><td>504882</td><td>4.7%</td></tr><tr><td>es</td><td>470629</td><td>4.3%</td></tr><tr><td>ar</td><td>282904</td><td>2.6%</td></tr><tr><td>tr</td><td>254735</td><td>2.3%</td></tr><tr><td>id</td><td>219013</td><td>2.0%</td></tr><tr><td>fi</td><td>182222</td><td>1.7%</td></tr><tr><td>de</td><td>144110</td><td>1.3%</td></tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>Top 10 Videos with the Most Languages Used in Comments</h2>
+            <table class="stat-table">
+                <tr>
+                    <th>Video ID</th>
+                    <th>Languages</th>
+                </tr>
+                <tr><td>H29bXhbpNl8</td><td>84</td></tr><tr><td>1WsSY1I17gw</td><td>84</td></tr><tr><td>VLpUsmBafMQ</td><td>84</td></tr><tr><td>RmRiTTTPncw</td><td>84</td></tr><tr><td>n-3jzVgFJac</td><td>84</td></tr><tr><td>5KmfwvR1Xsc</td><td>84</td></tr><tr><td>YnoSTg2atPM</td><td>84</td></tr><tr><td>6eCCRvCWez8</td><td>84</td></tr><tr><td>pM-jOfy_1jM</td><td>84</td></tr><tr><td>PjrAwC4TIPA</td><td>84</td></tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>Metadata for Top 10 Videos with Most Languages in Comments</h2>
+            <table class="stat-table">
+                <tr>
+                    <th>Video ID</th>
+                    <th>Title</th>
+                    <th>Like Count</th>
+                    <th>View Count</th>
+                    <th>Comment Count</th>
+                </tr>
+                <tr><td>H29bXhbpNl8</td><td>BTS (방탄소년단) 'BANG BANG CON21' Jin & JungKook #shorts</td><td>1821163</td><td>10459406</td><td>44869</td></tr><tr><td>1WsSY1I17gw</td><td>BTS (방탄소년단) 'Butter' in 노래방</td><td>2758394</td><td>25595517</td><td>116848</td></tr><tr><td>VLpUsmBafMQ</td><td>BLACKPINK - ‘Pretty Savage’ Live at Coachella 2023</td><td>1268506</td><td>97996806</td><td>24926</td></tr><tr><td>RmRiTTTPncw</td><td>XIUMIN 시우민 '이유 (You)' @XIUMIN’s Let It XIUnow</td><td>254341</td><td>1501675</td><td>23773</td></tr><tr><td>n-3jzVgFJac</td><td>Bring your best dance moves and join the #PinkVenomChallenge with us. Only on YouTube Shorts.</td><td>7165530</td><td>125363098</td><td>37136</td></tr><tr><td>5KmfwvR1Xsc</td><td>➡ Side step right left to my 💓</td><td>2785906</td><td>36205080</td><td>29734</td></tr><tr><td>YnoSTg2atPM</td><td>BTS (방탄소년단) ‘Butter’ Jacket Preview Clip - Jimin #Shorts</td><td>1402931</td><td>6513513</td><td>20404</td></tr><tr><td>6eCCRvCWez8</td><td>BLACKPINK - ‘Pink Venom’ Concept Teaser</td><td>1655035</td><td>14077924</td><td>78731</td></tr><tr><td>pM-jOfy_1jM</td><td>Stray Kids "거미줄(VENOM)" Video</td><td>2619920</td><td>130220724</td><td>87751</td></tr><tr><td>PjrAwC4TIPA</td><td>BLACKPINK - ‘Shut Down’ DANCE PERFORMANCE VIDEO</td><td>3956527</td><td>208758424</td><td>101326</td></tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>Languages Used in Top 10 Videos with Most Comments</h2>
+            <table class="stat-table">
+                <tr>
+                    <th>Video ID</th>
+                    <th>Languages</th>
+                </tr>
+                <tr><td>_btxV8tJM7w</td><td>af, am, ar, az, be, bg, bn, bs, ca, cs, cy, da, de, el, en, eo, es, et, eu, fa, fi, fr, ga, gl, gu, he, hi, hr, ht, hu, hy, id, is, it, ja, ka, kk, km, kn, ko, ku, ky, la, lb, lo, lt, lv, mg, mk, ml, mn, mr, ms, mt, ne, nl, no, or, pa, pl, ps, pt, ro, ru, rw, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, ug, uk, ur, vi, xh, zh, zu</td></tr><tr><td>dYRITmpFbJ4</td><td>af, am, ar, az, be, bg, bn, bs, ca, cs, cy, da, de, el, en, eo, es, et, eu, fa, fi, fr, ga, gl, gu, he, hi, hr, ht, hu, hy, id, is, it, ja, ka, kk, km, kn, ko, ku, ky, la, lb, lo, lt, lv, mg, mk, ml, mn, mr, ms, mt, ne, nl, no, or, pa, pl, ps, pt, ro, ru, rw, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, ug, uk, ur, vi, xh, zh, zu</td></tr><tr><td>eQNHDV7lKgE</td><td>af, am, ar, az, be, bg, bn, bs, ca, cs, cy, da, de, el, en, eo, es, et, eu, fa, fi, fr, ga, gl, gu, he, hi, hr, ht, hu, hy, id, is, it, ja, ka, kk, km, kn, ko, ku, ky, la, lb, lo, lt, lv, mg, mk, ml, mn, mr, ms, mt, ne, nl, no, or, pa, pl, ps, pt, ro, ru, rw, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, ug, uk, ur, vi, xh, zh, zu</td></tr><tr><td>6SbXGBC7GU4</td><td>af, am, ar, az, be, bg, bn, bs, ca, cs, cy, da, de, el, en, eo, es, et, eu, fa, fi, fr, ga, gl, gu, he, hi, hr, ht, hu, hy, id, is, it, ja, ka, kk, km, kn, ko, ku, ky, la, lb, lo, lt, lv, mg, mk, ml, mn, mr, ms, mt, ne, nl, no, or, pa, pl, ps, pt, ro, ru, rw, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, ug, uk, ur, vi, xh, zh, zu</td></tr><tr><td>gQlMMD8auMs</td><td>af, am, ar, az, be, bg, bn, bs, ca, cs, cy, da, de, el, en, eo, es, et, eu, fa, fi, fr, ga, gl, gu, he, hi, hr, ht, hu, hy, id, is, it, ja, ka, kk, km, kn, ko, ku, ky, la, lb, lo, lt, lv, mg, mk, ml, mn, mr, ms, mt, ne, nl, no, or, pa, pl, ps, pt, ro, ru, rw, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, ug, uk, ur, vi, xh, zh, zu</td></tr><tr><td>R9VDPMk5ls0</td><td>af, am, ar, az, be, bg, bn, bs, ca, cs, cy, da, de, el, en, eo, es, et, eu, fa, fi, fr, ga, gl, gu, he, hi, hr, ht, hu, hy, id, is, it, ja, ka, kk, km, kn, ko, ku, ky, la, lb, lo, lt, lv, mg, mk, ml, mn, mr, ms, mt, ne, nl, no, or, pa, pl, ps, pt, ro, ru, rw, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, ug, uk, ur, vi, xh, zh, zu</td></tr><tr><td>VjjKbrFJoxY</td><td>af, am, ar, az, be, bg, bn, bs, ca, cs, cy, da, de, el, en, eo, es, et, eu, fa, fi, fr, ga, gl, gu, he, hi, hr, ht, hu, hy, id, is, it, ja, ka, kk, km, kn, ko, ku, ky, la, lb, lo, lt, lv, mg, mk, ml, mn, mr, ms, mt, ne, nl, no, or, pa, pl, ps, pt, ro, ru, rw, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, ug, uk, ur, vi, xh, zh, zu</td></tr><tr><td>1WsSY1I17gw</td><td>af, am, ar, az, be, bg, bn, bs, ca, cs, cy, da, de, el, en, eo, es, et, eu, fa, fi, fr, ga, gl, gu, he, hi, hr, ht, hu, hy, id, is, it, ja, ka, kk, km, kn, ko, ku, ky, la, lb, lo, lt, lv, mg, mk, ml, mn, mr, ms, mt, ne, nl, no, or, pa, pl, ps, pt, ro, ru, rw, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, ug, uk, ur, vi, xh, zh, zu</td></tr><tr><td>aqtSOksH-NE</td><td>af, am, ar, az, be, bg, bn, bs, ca, cs, cy, da, de, el, en, eo, es, et, eu, fa, fi, fr, ga, gl, gu, he, hi, hr, ht, hu, hy, id, is, it, ja, ka, kk, km, kn, ko, ku, ky, la, lb, lo, lt, lv, mg, mk, ml, mn, mr, ms, mt, ne, nl, no, or, pa, pl, ps, pt, ro, ru, rw, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, ug, uk, ur, vi, xh, zh, zu</td></tr><tr><td>S50SYJbyXY4</td><td>af, am, ar, az, be, bg, bn, bs, ca, cs, cy, da, de, el, en, eo, es, et, eu, fa, fi, fr, ga, gl, gu, he, hi, hr, ht, hu, hy, id, is, it, ja, ka, kk, km, kn, ko, ku, ky, la, lb, lo, lt, lv, mg, mk, ml, mn, mr, ms, mt, ne, nl, no, or, pa, pl, ps, pt, ro, ru, rw, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, ug, uk, ur, vi, xh, zh, zu</td></tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>Top 10 Languages Used in Titles, Comments, and Descriptions</h2>
+            <table class="stat-table">
+                <tr>
+                    <th>Category</th>
+                    <th>Languages</th>
+                </tr>
+                <tr>
+                    <td>Titles</td>
+                    <td>en, ko, zh-cn, ja, de, mt, it, fr, es, he</td>
+                </tr>
+                <tr>
+                    <td>Comments</td>
+                    <td>en, ko, zh, ja, es, ar, tr, id, fi, de</td>
+                </tr>
+                <tr>
+                    <td>Descriptions</td>
+                    <td>en, ko, es, de, ur, it, fr, fi, zh-cn, ja</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+    </html>
+    

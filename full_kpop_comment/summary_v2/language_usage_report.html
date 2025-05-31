@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Language Usage Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1, h2, h3 { color: #2c3e50; }
+        table { border-collapse: collapse; width: 80%; margin-bottom: 30px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: right; }
+        th { background: #f4f4f4; }
+        img { max-width: 700px; margin-bottom: 30px; border: 1px solid #ccc; }
+        .section { margin-bottom: 40px; }
+    </style>
+</head>
+<body>
+    <h1>Language Usage Report</h1>
+    <div class="section">
+        <h2>Key Statistics</h2>
+        <ul>
+            <li><b>Total comments across all videos:</b> 10,849,971</li>
+            <li><b>Total undetected languages:</b> 34,423,426</li>
+            <li><b>Percentage of undetected languages:</b> 317.27%</li>
+            <li><b>Average number of languages per video:</b> 23.14</li>
+        </ul>
+    </div>
+    <div class="section">
+        <h2>Top 10 Languages by Comment Count</h2>
+        <table>
+            <tr><th>Language</th><th>Comments</th><th>Percentage</th></tr>
+            <tr><td>en</td><td>16,746,620</td><td>154.35%</td></tr>
+            <tr><td>de</td><td>561,801</td><td>5.18%</td></tr>
+            <tr><td>es</td><td>559,222</td><td>5.15%</td></tr>
+            <tr><td>ja</td><td>443,203</td><td>4.08%</td></tr>
+            <tr><td>fr</td><td>400,714</td><td>3.69%</td></tr>
+            <tr><td>fi</td><td>327,286</td><td>3.02%</td></tr>
+            <tr><td>hi</td><td>232,548</td><td>2.14%</td></tr>
+            <tr><td>it</td><td>201,334</td><td>1.86%</td></tr>
+            <tr><td>cs</td><td>111,908</td><td>1.03%</td></tr>
+            <tr><td>pl</td><td>103,555</td><td>0.95%</td></tr>
+        </table>
+        <img src="../top_10_languages.png" alt="Top 10 Languages">
+    </div>
+    <div class="section">
+        <h2>Top 30 Languages by Comment Count</h2>
+        <img src="../top_30_languages.png" alt="Top 30 Languages">
+    </div>
+    <div class="section">
+        <h2>Histogram of All Languages' Comment Counts</h2>
+        <img src="../language_histogram.png" alt="Histogram of All Languages">
+    </div>
+    <div class="section">
+        <h2>Top 10 Languages by Video Coverage</h2>
+        <table>
+            <tr><th>Language</th><th>Coverage (%)</th></tr>
+            <tr><td>en</td><td>99.95</td></tr>
+            <tr><td>ja</td><td>99.45</td></tr>
+            <tr><td>fi</td><td>99.41</td></tr>
+            <tr><td>hi</td><td>98.81</td></tr>
+            <tr><td>de</td><td>98.49</td></tr>
+            <tr><td>es</td><td>98.31</td></tr>
+            <tr><td>fr</td><td>97.95</td></tr>
+            <tr><td>it</td><td>94.84</td></tr>
+            <tr><td>cs</td><td>91.87</td></tr>
+            <tr><td>sv</td><td>85.16</td></tr>
+        </table>
+    </div>
+    <div class="section">
+        <h2>Top 10 Languages by Video Title</h2>
+        <table>
+            <tr><th>Language</th><th>Video Count</th><th>Percentage</th></tr>
+            <tr><td>en</td><td>2102</td><td>36.1%</td></tr>
+            <tr><td>ko</td><td>1469</td><td>25.3%</td></tr>
+            <tr><td>zh-cn</td><td>424</td><td>7.3%</td></tr>
+            <tr><td>ja</td><td>216</td><td>3.7%</td></tr>
+            <tr><td>de</td><td>215</td><td>3.7%</td></tr>
+            <tr><td>mt</td><td>166</td><td>2.9%</td></tr>
+            <tr><td>it</td><td>125</td><td>2.1%</td></tr>
+            <tr><td>fr</td><td>93</td><td>1.6%</td></tr>
+            <tr><td>es</td><td>78</td><td>1.3%</td></tr>
+            <tr><td>he</td><td>71</td><td>1.2%</td></tr>
+        </table>
+    </div>
+    <div class="section">
+        <h2>Stats for Language 'ko'</h2>
+        <ul>
+            <li><b>Total comments:</b> 3,215 (0.03% of all comments)</li>
+            <li><b>Present in:</b> 40.27% of videos</li>
+        </ul>
+    </div>
+    <div class="section">
+        <h2>Example Video Breakdown (First Video in Dataset)</h2>
+        <pre>
+Video ID: QWZgoOoqgBU
+Total comments: 746
+Total languages: 16
+Undetected languages: 1668
+        </pre>
+    </div>
+    <div class="section">
+        <h2>Undetected Languages Analysis</h2>
+        <img src="../undetected_languages_histogram.png" alt="Undetected Languages Histogram">
+        <h3>Top 5% Videos by Undetected Language Count</h3>
+        <pre>
+H29bXhbpNl8: 115,794 undetected (40,257 comments)
+B1qq8IvzSz4: 128,330 undetected (40,426 comments)
+yClGpsAUm84: 126,111 undetected (42,458 comments)
+1WsSY1I17gw: 324,823 undetected (110,137 comments)
+89fCmIOkL9o: 155,123 undetected (30,492 comments)
+... (see terminal for full list)
+        </pre>
+    </div>
+    <div class="section">
+        <h2>Trends Over Time</h2>
+        <p>No timestamp column found. Skipping trend analysis over time.</p>
+    </div>
+</body>
+</html>
+    

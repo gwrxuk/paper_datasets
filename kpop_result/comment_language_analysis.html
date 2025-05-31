@@ -1,0 +1,436 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>K-pop Video Comment Language Analysis</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 40px;
+                color: #333;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            h1, h2 {
+                color: #2c3e50;
+                text-align: center;
+            }
+            .section {
+                background-color: #f8f9fa;
+                padding: 20px;
+                margin-bottom: 30px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .stats-grid {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+                margin: 20px 0;
+            }
+            .stat-box {
+                background-color: white;
+                padding: 20px;
+                border-radius: 8px;
+                text-align: center;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .stat-value {
+                font-size: 24px;
+                font-weight: bold;
+                color: #2c3e50;
+            }
+            .language-list {
+                columns: 2;
+                column-gap: 40px;
+            }
+            .language-item {
+                margin-bottom: 10px;
+                padding: 5px;
+                background-color: white;
+                border-radius: 4px;
+            }
+            .highlight {
+                color: #e74c3c;
+                font-weight: bold;
+            }
+            .summary {
+                background-color: #fff3cd;
+                padding: 20px;
+                border-radius: 8px;
+                margin: 20px 0;
+                border-left: 5px solid #ffc107;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>K-pop Video Comment Language Analysis</h1>
+            
+            <div class="summary">
+                <h2>Key Findings</h2>
+                <p>Analysis of 2190 K-pop videos reveals the global nature of K-pop fandom through comment language diversity.</p>
+            </div>
+
+            <div class="section">
+                <h2>Overall Language Statistics</h2>
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <div class="stat-value">109</div>
+                        <div>Distinct Languages Detected</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value">23.1</div>
+                        <div>Average Languages per Video</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value">22.0</div>
+                        <div>Median Languages per Video</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value">0 - 47</div>
+                        <div>Range of Languages per Video</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Language Distribution in Comments</h2>
+                <div class="language-list">
+    
+                    <div class="language-item">
+                        <span class="highlight">en</span>: 100.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="highlight">ja</span>: 99.5%
+                    </div>
+                    <div class="language-item">
+                        <span class="highlight">fi</span>: 99.4%
+                    </div>
+                    <div class="language-item">
+                        <span class="highlight">hi</span>: 98.8%
+                    </div>
+                    <div class="language-item">
+                        <span class="highlight">de</span>: 98.5%
+                    </div>
+                    <div class="language-item">
+                        <span class="highlight">es</span>: 98.3%
+                    </div>
+                    <div class="language-item">
+                        <span class="highlight">fr</span>: 97.9%
+                    </div>
+                    <div class="language-item">
+                        <span class="">it</span>: 94.8%
+                    </div>
+                    <div class="language-item">
+                        <span class="">cs</span>: 91.9%
+                    </div>
+                    <div class="language-item">
+                        <span class="">sv</span>: 85.2%
+                    </div>
+                    <div class="language-item">
+                        <span class="">pl</span>: 84.9%
+                    </div>
+                    <div class="language-item">
+                        <span class="">da</span>: 84.4%
+                    </div>
+                    <div class="language-item">
+                        <span class="">nl</span>: 81.2%
+                    </div>
+                    <div class="language-item">
+                        <span class="">mt</span>: 80.4%
+                    </div>
+                    <div class="language-item">
+                        <span class="">et</span>: 79.1%
+                    </div>
+                    <div class="language-item">
+                        <span class="">id</span>: 75.2%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ro</span>: 73.1%
+                    </div>
+                    <div class="language-item">
+                        <span class="">pt</span>: 68.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">bn</span>: 67.4%
+                    </div>
+                    <div class="language-item">
+                        <span class="">lt</span>: 64.1%
+                    </div>
+                    <div class="language-item">
+                        <span class="">sl</span>: 60.8%
+                    </div>
+                    <div class="language-item">
+                        <span class="">el</span>: 47.7%
+                    </div>
+                    <div class="language-item">
+                        <span class="">az</span>: 43.5%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ko</span>: 40.3%
+                    </div>
+                    <div class="language-item">
+                        <span class="">hu</span>: 39.9%
+                    </div>
+                    <div class="language-item">
+                        <span class="">eu</span>: 39.7%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ar</span>: 39.5%
+                    </div>
+                    <div class="language-item">
+                        <span class="">tr</span>: 37.9%
+                    </div>
+                    <div class="language-item">
+                        <span class="">sk</span>: 36.5%
+                    </div>
+                    <div class="language-item">
+                        <span class="">he</span>: 36.2%
+                    </div>
+                    <div class="language-item">
+                        <span class="">lv</span>: 27.7%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ru</span>: 27.7%
+                    </div>
+                    <div class="language-item">
+                        <span class="">no</span>: 22.8%
+                    </div>
+                    <div class="language-item">
+                        <span class="">pa</span>: 18.8%
+                    </div>
+                    <div class="language-item">
+                        <span class="">te</span>: 13.1%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ta</span>: 9.1%
+                    </div>
+                    <div class="language-item">
+                        <span class="">th</span>: 8.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">kn</span>: 6.4%
+                    </div>
+                    <div class="language-item">
+                        <span class="">cy</span>: 6.1%
+                    </div>
+                    <div class="language-item">
+                        <span class="">vi</span>: 5.6%
+                    </div>
+                    <div class="language-item">
+                        <span class="">mr</span>: 4.4%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ca</span>: 4.3%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ml</span>: 3.7%
+                    </div>
+                    <div class="language-item">
+                        <span class="">gu</span>: 3.6%
+                    </div>
+                    <div class="language-item">
+                        <span class="">or</span>: 3.1%
+                    </div>
+                    <div class="language-item">
+                        <span class="">sq</span>: 3.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">si</span>: 1.7%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ka</span>: 1.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">uk</span>: 0.1%
+                    </div>
+                    <div class="language-item">
+                        <span class="">af</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">am</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">be</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">bg</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">bs</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ceb</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">co</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">eo</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">fa</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">fy</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ga</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">gd</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">gl</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ha</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">haw</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">hmn</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">hr</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ht</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">hy</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ig</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">is</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">iw</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">jw</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">kk</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">km</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ku</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ky</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">la</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">lb</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">lo</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">mg</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">mi</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">mk</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">mn</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ms</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">my</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ne</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ny</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ps</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">rw</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">sm</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">sn</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">so</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">sr</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">st</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">su</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">sw</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">tg</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">tk</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">tl</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">tt</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ug</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">ur</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">uz</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">xh</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">yi</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">yo</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">zh-cn</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">zh-tw</span>: 0.0%
+                    </div>
+                    <div class="language-item">
+                        <span class="">zu</span>: 0.0%
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+    
